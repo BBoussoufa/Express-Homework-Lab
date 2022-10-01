@@ -46,7 +46,7 @@ app.get("/magic/:MagicQuestion", (req, res) => {
   //}
 
   res.send(`${MagicQuestion} 
-<h1>${MagicArray[Math.floor(Math.random() * MagicArray.length)]} <h1/>`);
+    <h1>${MagicArray[Math.floor(Math.random() * MagicArray.length)]} <h1/>`);
 });
 
 app.listen(PORT, () => {
